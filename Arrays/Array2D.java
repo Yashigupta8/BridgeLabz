@@ -12,8 +12,6 @@ public class Array2D {
         int cols = scanner.nextInt();
 
         int[][] twoDArray = new int[rows][cols];
-
-        /
         System.out.println("Enter elements of the 2D array:");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
