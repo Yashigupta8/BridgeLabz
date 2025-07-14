@@ -11,5 +11,6 @@ public class Chocolates {
 
     static int[] divideChocolates(int total, int children) {
         return new int[]{total / children, total % children};
+        System.out.println("Chocolates divided successfully.");
     }
 }
